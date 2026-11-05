@@ -13,27 +13,33 @@ window.designStyles = [
     "category": "Expressive",
     "tags": [
       "Painterly",
-      "Sunlit",
-      "Open-air"
+      "Seasonal",
+      "Atmospheric"
     ],
-    "description": "Vast cobalt skies, towering luminous clouds, and wind-combed meadow greens. A painterly landscape translated into an airy, nature-led interface.",
+    "description": "Fixed painterly hills, slowly drifting sculptural clouds, and distant seasonal wildlife. Warm sans-serif type, coordinated dark surfaces, and quiet SVG controls grow from The Tan Family’s living landscape.",
     "colors": [
-      "#0753aa",
-      "#f5fcf3",
-      "#91bd45"
+      "#345b7c",
+      "#3d392b",
+      "#efc28c"
     ],
-    "typography": "Proposed adaptation: Georgia display serif at 52–104px, tight tracking and 1.02 leading; Trebuchet MS body at 16px / 1.7. The source contains no typography.",
+    "typography": "Verified implementation: Trebuchet MS, Arial, sans-serif throughout. Regular 58–104px hero at 1.03 leading; 34–52px section headings; compact tracked labels and 35px card names.",
     "principles": [
-      "Let a broad blue field create space around a luminous cloud focal point.",
-      "Layer distant blue-green silhouettes behind pale meadow light and darker foreground detail.",
-      "Reserve yellow-green for sunlit accents; use deep forest ink on quiet cloud-white reading surfaces.",
-      "Keep UI airy and restrained so the landscape remains the expressive element."
+      "Keep hill and shoreline registration fixed across seasons; animate clouds and wildlife in separate layers.",
+      "Let seasonal sky, canvas, card surfaces, text and accents change together, with sRGB fallbacks and optional Display-P3 enhancement.",
+      "Make wildlife smaller and less contrasty with distance; apply seasonal haze to every bird surface and marking.",
+      "Use a broad scenic hero, four compact cards, and a rounded closing panel on a sky-colored court; reduce empty space before reducing text.",
+      "Use inline SVG controls, visible keyboard focus, reduced-motion support, and quiet discoverable season navigation."
     ],
     "references": [
       {
+        "title": "The Tan Family — implemented seasonal Windswept site",
+        "url": "https://www.thetanfamily.net/",
+        "note": "Primary interface reference. Source verified at commit 95e5db8; desktop Safari inspected November 5, 2026. Responsive rules and scene behavior verified from source and animation checks."
+      },
+      {
         "title": "User-supplied landscape illustration",
         "url": "assets/windswept/reference.png",
-        "note": "Image supplied in chat; artist and original source unknown. Palette and composition observed; interface choices proposed."
+        "note": "Original visual inspiration only; creator and reuse rights unverified. Earlier proposed serif/light UI is superseded by the implemented site."
       }
     ],
     "artifacts": [
@@ -55,6 +61,6 @@ window.designStyles = [
       }
     ],
     "preview": "windswept",
-    "cover": "assets/windswept/reference.png"
+    "cover": "assets/windswept/cover.svg"
   }
 ];
