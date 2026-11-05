@@ -1,0 +1,48 @@
+/* Windswept: palette visually estimated from reference.png.
+   All interface geometry, typography and motion are proposed adaptations. */
+:root {
+  --ws-color-sky-deep: #0753aa;
+  --ws-color-sky-light: #52a3ed;
+  --ws-color-cloud: #f5fcf3;
+  --ws-color-cloud-shade: #75c4da;
+  --ws-color-meadow: #d9f58b;
+  --ws-color-grass: #91bd45;
+  --ws-color-forest: #183e42;
+  --ws-color-canvas: #f4f8ee;
+  --ws-color-surface: #ffffff;
+  --ws-color-text: #183e42;
+  --ws-color-muted: #49655c;
+  --ws-color-primary: #0753aa;
+  --ws-color-primary-hover: #064589;
+  --ws-color-border: #cad9c8;
+  --ws-color-focus: #0753aa;
+  --ws-font-display: Georgia, "Times New Roman", serif;
+  --ws-font-body: "Trebuchet MS", Arial, sans-serif;
+  --ws-text-display: clamp(3.25rem, 7vw, 6.5rem);
+  --ws-text-heading: clamp(2rem, 4vw, 3rem);
+  --ws-text-body: 1rem;
+  --ws-text-small: 0.75rem;
+  --ws-leading-display: 1.02;
+  --ws-leading-body: 1.7;
+  --ws-tracking-display: -0.045em;
+  --ws-tracking-label: 0.15em;
+  --ws-space-1: 4px;
+  --ws-space-2: 8px;
+  --ws-space-3: 12px;
+  --ws-space-4: 16px;
+  --ws-space-6: 24px;
+  --ws-space-8: 32px;
+  --ws-space-12: 48px;
+  --ws-space-20: 80px;
+  --ws-space-28: 112px;
+  --ws-content-max: 1120px;
+  --ws-page-gutter: clamp(20px, 5vw, 64px);
+  --ws-grid-gap: 24px;
+  --ws-radius-card: 20px;
+  --ws-radius-input: 10px;
+  --ws-radius-pill: 999px;
+  --ws-border-width: 1px;
+  --ws-shadow-card: 0 16px 48px -20px rgb(24 62 66 / 22%);
+  --ws-duration-hover: 180ms;
+  --ws-ease-hover: cubic-bezier(0.2, 0.6, 0.3, 1);
+}
