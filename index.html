@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="A personal library of design styles, references, and reusable artifacts.">
+<title>Design — A Style Library</title>
+<link rel="stylesheet" href="styles.css"><script src="styles.js" defer></script><script src="app.js" defer></script>
+</head>
+<body>
+<header class="masthead"><a href="./" class="wordmark"><span class="mark" aria-hidden="true">✳</span> Design<span class="wordmark-note"> / A personal library</span></a><span class="edition">An ongoing collection <span class="live-dot"></span></span></header>
+<main>
+<section class="intro"><div class="eyebrow">REFERENCE / EXPLORE / MAKE</div><h1>A place for<br>every <em>design direction.</em></h1><p>A growing collection of visual styles. Gather the references, find the details, and turn inspiration into something you can use.</p><div class="intro-bottom"><span class="collection-label">THE COLLECTION <span id="total"></span></span><span class="subtle">From first reference to finished artifacts ↙</span></div></section>
+<section aria-label="Style collection"><div class="toolbar"><div class="filters" role="group" aria-label="Filter styles"><button class="filter active" data-filter="All" aria-pressed="true">All styles</button><button class="filter" data-filter="Minimal" aria-pressed="false">Minimal</button><button class="filter" data-filter="Expressive" aria-pressed="false">Expressive</button><button class="filter" data-filter="Digital" aria-pressed="false">Digital</button></div><label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Find a style…" aria-label="Search styles"></label></div><div id="cards" class="grid"></div><p id="empty" hidden>No styles match. Try another search or filter.</p></section>
+<footer><span>A library in progress. Always room for another direction.</span><span>DESIGN / <span id="year"></span></span></footer>
+</main>
+<dialog id="detail"><div class="dialog-top"><span class="eyebrow">STYLE NOTES</span><button id="close" class="close" aria-label="Close style details">✕</button></div><div id="detail-content"></div></dialog>
+</body></html>
