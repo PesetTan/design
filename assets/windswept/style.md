@@ -24,16 +24,16 @@ Evidence vocabulary: **verified** means present in the source at the named commi
 
 | Role | Spring | Summer | Autumn | Winter |
 | --- | --- | --- | --- | --- |
-| Sky / browser canvas | `#0753aa` | `#0753aa` | `#345b7c` | `#436378` |
-| Ground canvas | `#103e3c` | `#343d2b` | `#3d392b` | `#233e43` |
-| Main ink | `#f1f5dc` | `#fcf4dc` | `#fff1df` | `#eff4f1` |
-| Secondary ink | `#bfcebc` | `#d3cdb4` | `#d7c7b0` | `#c0d1d3` |
+| Sky / browser canvas | `#0753aa` | `#0753aa` | `#24261f` | `#436378` |
+| Ground canvas | `#103e3c` | `#343d2b` | `#24261f` | `#233e43` |
+| Main ink | `#f1f5dc` | `#fcf4dc` | `#f3eddf` | `#eff4f1` |
+| Secondary ink | `#bfcebc` | `#d3cdb4` | `#c9c4ae` | `#c0d1d3` |
 | Accent | `#e1f5a5` | `#f6d78e` | `#efc28c` | `#c5dfe0` |
-| Primary card | `#194b47` | `#434d33` | `#504633` | `#2d4b52` |
-| Hover card | `#245a51` | `#51583b` | `#5a4c36` | `#37545a` |
-| Detail ink | `#d2dfce` | `#e6dfc9` | `#e9dac4` | `#d4e1df` |
+| Primary card | `#194b47` | `#434d33` | `#303329` | `#2d4b52` |
+| Hover card | `#245a51` | `#51583b` | `#3c4034` | `#37545a` |
+| Detail ink | `#d2dfce` | `#e6dfc9` | `#f3eddf` | `#d4e1df` |
 
-Full card alternates, hover accents, and Display-P3 values are in [tokens.json](tokens.json). Border is `#ffffff29`; hero title is white, footer text `#f0f5f2`. Reserve accents for the emphasized headline word, action, icons, and small labels. Let scenery dominate the hero; let solid surfaces carry lower-page reading. Avoid fixed percentage color allocations because landscape crop and season change them.
+Full card alternates, hover accents, and Display-P3 values are in [tokens.json](tokens.json). Autumn matches the résumé’s warm charcoal, olive surfaces, cream text, and amber accent. Its border is `#505442`; the other seasons use `#ffffff29`. The painted autumn sky retains its blue. Hero title is white, footer text `#f0f5f2`. Reserve accents for the emphasized headline word, action, icons, and small labels. Let scenery dominate the hero; let solid surfaces carry lower-page reading. Avoid fixed percentage color allocations because landscape crop and season change them.
 
 Use sRGB fallbacks everywhere. Enable coordinated `color(display-p3 …)` values only when both CSS support and `color-gamut: p3` are present. This is wide-gamut enhancement of SDR artwork, not HDR or an increase in peak luminance. Seasonal artwork saturation is spring 1.055, summer 1.045, autumn 1.06, winter 1.035; contrast 1.015. The optional P3 soft-light overlay is .17 opacity. Cloud highlights retain their own light and alpha; render-time cloud desaturation softens cyan edges (autumn .65, others .85).
 

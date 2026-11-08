@@ -18,8 +18,8 @@ window.designStyles = [
     ],
     "description": "Fixed painterly hills, slowly drifting sculptural clouds, and distant seasonal wildlife. Warm sans-serif type, coordinated dark surfaces, and quiet SVG controls grow from The Tan Family’s living landscape.",
     "colors": [
-      "#345b7c",
-      "#3d392b",
+      "#24261f",
+      "#303329",
       "#efc28c"
     ],
     "typography": "Verified implementation: Trebuchet MS, Arial, sans-serif throughout. Regular 58–104px hero at 1.03 leading; 34–52px section headings; compact tracked labels and 35px card names.",
